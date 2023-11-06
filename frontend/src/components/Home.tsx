@@ -1,12 +1,13 @@
 import React from "react";
-import SampleCallApi from "./SampleCallApi";
+import UserInfo from "./UserInfo";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
     <>
-      <h2>Home Page</h2>
+      <h2>My Page</h2>
+      <UserInfo />
       <hr />
-      <SampleCallApi />
     </>
   );
 };
