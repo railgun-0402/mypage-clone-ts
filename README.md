@@ -9,34 +9,13 @@
 ・入力項目はすべて必須とする
 
 ## environments
-・React18
 
-・TypeScript
+<img src="https://skillicons.dev/icons?i=typescript,react,redux" /> <br /><br />
 
-・Node.js(v18)
+## problem
+- 状態管理もクソもないので、全画面レンダリングされてしまう悪い例
+- useMemo等を使用すれば、最小限のレンダリングで対策可能
 
-・Jest
+参考になりそうな記事：
 
-・API Gateway
-
-・Lambda (バックエンド、API)
-
-・DynamoDB　(ユーザデータ管理)
-
-・CloudWatch (APIのログ参照用)
-
-## TODO
-### UT
-・データ登録(フロントエンド,バックエンド)
-
-・github-actionsで自動テスト
-
-### task
-・データ取得＆一覧化
-
-・データの削除
-
-### deploy
-・AWS EC2 or Amplify
-
-・デプロイも自動化したい
+https://qiita.com/Yametaro/items/621bfd8c894f8fd36539
