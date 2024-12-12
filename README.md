@@ -1,12 +1,10 @@
 # mypage-clone-ts
-マイページフォームの例をReact・TypeScriptで実現するプロジェクト。
+- マイページフォームをReact・TypeScriptで記載
+- 一部のUI変更で、ページ全体がレンダリングされる悪い例
 
 ## functions
-・名前、住所、性別を入力できる
-
-・Submitボタンを押下すると、DynamoDBに入力値が登録される
-
-・入力項目はすべて必須とする
+- React Developer Toolsでレンダリングの箇所を確認可能
+  - https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ja
 
 ## environments
 
